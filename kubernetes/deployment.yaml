@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: argo-demo
-          image: docker.io/argo-demo:latest
+          image: docker.io/fev1n/argo-demo:latest
           ports:
             - containerPort: 8080
